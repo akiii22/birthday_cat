@@ -1,9 +1,13 @@
 import IntroGreetings from "./components/IntroGreetings";
+import MessageCard from "./components/MessageCard";
 
 function App() {
   return (
-    <div className=" bg-black/70 h-dvh w-full">
-      <IntroGreetings />
+    <div className="h-dvh w-full">
+      <div className=" bg-black/70">
+        <IntroGreetings />
+        <MessageCard />
+      </div>
     </div>
   );
 }
