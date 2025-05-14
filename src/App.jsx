@@ -1,12 +1,14 @@
+import Greetings from "./components/Greetings";
 import IntroGreetings from "./components/IntroGreetings";
-import MessageCard from "./components/MessageCard";
+import MessageRow from "./components/MessageRow";
 
 function App() {
   return (
     <div className="h-dvh w-full">
-      <div className=" bg-black/70">
+      <div className=" bg-black/90">
         <IntroGreetings />
-        <MessageCard />
+        <MessageRow />
+        <Greetings />
       </div>
     </div>
   );

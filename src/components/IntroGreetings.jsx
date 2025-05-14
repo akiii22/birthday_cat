@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 function IntroGreetings() {
   return (
-    <div className="relative flex items-center justify-around px-10 mb-10  bg-black/70 overflow-hidden">
+    <div className="relative flex items-center justify-around px-10 mb-20  overflow-hidden">
       <div className="absolute w-[400px] h-[400px] rounded-full bg-pink-400 blur-3xl opacity-30 top-10 left-10 animate-pulse"></div>
 
       <motion.h1
