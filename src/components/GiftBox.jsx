@@ -5,6 +5,8 @@ function GiftBox() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleModal = () => setIsOpen(!isOpen);
 
+  const qrCode = `${window.location.origin}/flower`;
+
   return (
     <div className="flex flex-col items-center my-20">
       <motion.img
@@ -38,7 +40,9 @@ function GiftBox() {
               </span>
             </p>
             <img
-              src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://localhost:5173/flower"
+              src={`https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=${encodeURIComponent(
+                qrCode
+              )}`}
               alt="QR Code"
               className="mx-auto"
             />

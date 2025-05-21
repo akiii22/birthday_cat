@@ -7,12 +7,13 @@ const dummyData = [
     image: "/patrick.jpg",
   },
   {
-    message: "Progress, not perfection.",
+    message:
+      "Kat, Happy Birthdayyy to youuuu!! Thank you for being a good friend of mine and being there if I have no one to tell my problems. Enjoy your day! More birthdays to comeee!!!",
     name: "Annyy",
     image: "anne.jpg",
   },
   {
-    message: "You are stronger than you think.",
+    message: "Wala tagal kase magbigay ng message na upload ko na hahaaha",
     name: "Accyy",
     image: "/ace.jpg",
   },

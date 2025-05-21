@@ -11,7 +11,7 @@ function FlowerPage() {
       </h1>
       <p className="text-lg text-gray-700">
         I hope that you appreciate this even though it is not real flowers. What
-        I mean is that, not this flower on the screen, LOOK AT YOUR LEFT!
+        I mean is that, not this flower on the screen, LOOK AT YOUR LEFT!g
       </p>
     </div>
   );
