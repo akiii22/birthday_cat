@@ -13,7 +13,7 @@ const dummyData = [
     image: "anne.jpg",
   },
   {
-    message: "Wala tagal kase magbigay ng message na upload ko na hahaaha",
+    message: "hbd Catrina, God bless you Catrina",
     name: "Accyy",
     image: "/ace.jpg",
   },
