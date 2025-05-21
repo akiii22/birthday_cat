@@ -2,34 +2,24 @@ import MessageCard from "./MessageCard";
 
 const dummyData = [
   {
-    message: "You're amazing. Keep going!",
-    name: "Alice",
-    image: "/last2.jpg",
-  },
-  {
-    message: "Believe in yourself!",
-    name: "Bob",
-    image: "/last2.jpg",
-  },
-  {
-    message: "Never give up on your dreams.",
-    name: "Charlie",
-    image: "/last2.jpg",
+    message: "Happy birthday! katttt, wag masyado malulong sa bl bwhaha",
+    name: "Patty",
+    image: "/patrick.jpg",
   },
   {
     message: "Progress, not perfection.",
-    name: "Diana",
-    image: "/last2.jpg",
+    name: "Annyy",
+    image: "anne.jpg",
   },
   {
     message: "You are stronger than you think.",
-    name: "Eve",
-    image: "/last2.jpg",
+    name: "Accyy",
+    image: "/ace.jpg",
   },
   {
-    message: "Take one step at a time.",
-    name: "Frank",
-    image: "/last2.jpg",
+    message: "Happy birthday God bless.",
+    name: "Redzzy",
+    image: "/redz.jpg",
   },
 ];
 

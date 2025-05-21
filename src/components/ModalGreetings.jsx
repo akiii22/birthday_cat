@@ -35,8 +35,8 @@ function ModalGreetings({ onClose }) {
           alt="cake"
           className="mx-auto w-40 h-40 rounded-full shadow-md mb-4"
         />
-        <h1 className="text-2xl font-caveat text-pink-600 leading-snug">
-          Damin Arte, jokeee 🎉
+        <h1 className="text-4xl font-caveat text-pink-600 leading-snug">
+          Daming Arte, jokeee 🎉
           <br />
           Happy Birthday babygirl 💖
           <br />

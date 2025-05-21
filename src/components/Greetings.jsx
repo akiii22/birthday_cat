@@ -1,12 +1,18 @@
 import { useState } from "react";
+import { motion } from "framer-motion";
 import ModalGreetings from "./ModalGreetings";
 
 function Greetings() {
   const [isOpen, setIsOpen] = useState(false);
   const toggleBtn = () => setIsOpen((prev) => !prev);
+
   return (
     <div className="my-20 flex justify-around items-center px-10">
-      <div>
+      <motion.div
+        initial={{ opacity: 0, x: -50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut" }}
+      >
         <h1 className="text-white text-[2rem] font-playfair my-10">
           Yoooo!!! Someone told me that you are celebrating your 23rd Birthday!
         </h1>
@@ -17,8 +23,15 @@ function Greetings() {
           Here is my little surprise for you 😏
         </button>
         {isOpen && <ModalGreetings onClose={() => setIsOpen(false)} />}
-      </div>
-      <img src="/yohan.png" alt="yohan pic" />
+      </motion.div>
+
+      <motion.img
+        src="/yohan.png"
+        alt="yohan pic"
+        initial={{ opacity: 0, x: 50 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.6, ease: "easeOut", delay: 0.2 }}
+      />
     </div>
   );
 }
